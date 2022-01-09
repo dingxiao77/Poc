@@ -1,6 +1,6 @@
 # 参考
 - [细数 redis 的几种 getshell 方法](https://paper.seebug.org/1169/)
-
+- https://github.com/Ridter/redis-rce
 ## 写文件
 ### Windows
 
