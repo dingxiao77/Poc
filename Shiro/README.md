@@ -54,6 +54,7 @@ Cookie: rememberMe=FmufV4kFigslNT5gT7/nF9BUTDnlh3JypruJlvhXbVTPgtlNPis31dHij0+PP
 - https://github.com/apache/shiro/blob/323698ed6e22e417a5e86e367906cddb29932bbe/crypto/cipher/src/main/java/org/apache/shiro/crypto/cipher/AesCipherService.java
 - https://jkme.github.io/cve-2016-6802-exp.html
 - [Apache Shiro 两种姿势绕过认证分析（CVE-2020-17523）](https://paper.seebug.org/1478/)
+- [tomcat容器url解析特性研究](https://xz.aliyun.com/t/10799)
 
 ## Shiro反序列化利用工具
 - https://github.com/Ares-X/shiro-exploit
