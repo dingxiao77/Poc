@@ -1,5 +1,5 @@
 - [tomcat常用漏洞汇总](https://saucer-man.com/information_security/507.html)
-
+- [tomcat容器url解析特性研究](https://xz.aliyun.com/t/10799)
 
 ### [CVE-2020-9484] Tomcat Session 反序列化漏洞
 
