@@ -276,3 +276,4 @@ Mysqlconnector 6.x or < 8.0.20
 - https://su18.org/post/fastjson/#8-fastjson-1268
 - https://github.com/safe6Sec/Fastjson
 - https://f5.pm/go-82366.html
+- [fastjson 读文件 gadget 的利用场景扩展](https://b1ue.cn/archives/506.html)
