@@ -78,3 +78,4 @@ Server: Apache
 - [Unauthorized RCE in VMware vCenter](https://swarm.ptsecurity.com/unauth-rce-vmware/)
 - https://attackerkb.com/topics/5nZX40suYA/cve-2021-21980
 - [VMSA-2021-0027 的额外东东](https://articles.zsxq.com/id_1cnl8w2r5hsh.html)
+- [Stealing administrative JWT's through post auth SSRF (CVE-2021-22056)](https://blog.assetnote.io/2022/01/17/workspace-one-access-ssrf/)
