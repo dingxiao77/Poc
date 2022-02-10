@@ -43,3 +43,13 @@ JVM_SUPPORT_RECOMMENDED_ARGS="-Xrunjdwp:transport=dt_socket,suspend=n,server=y,a
 bin/start-confluence.sh
 bin/stop-confluence.sh
 ```
+
+### jars
+- synchrony-proxy/WEB-INF/lib/
+- lib/
+- confluence/WEB-INF/packages/
+- confluence/WEB-INF/osgi-framework-bundles/
+- confluence/WEB-INF/lib/
+- confluence/WEB-INF/atlassian-bundled-plugins-setup/
+- confluence/WEB-INF/atlassian-bundled-plugins/
+- bin/
