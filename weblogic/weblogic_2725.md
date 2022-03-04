@@ -97,8 +97,8 @@ poc:
 - [Weblogic反序列化远程代码执行漏洞（CVE-2019-2725）分析报告](https://mp.weixin.qq.com/s/fPZhWOyPexgQy6f-9c-JSw)
 
 payload生成参考：
-- [
-WebLogic wls9-async组件RCE分析（CVE-2019-2725）](https://lucifaer.com/2019/05/10/WebLogic%20wls9-async%E7%BB%84%E4%BB%B6RCE%E5%88%86%E6%9E%90%EF%BC%88CVE-2019-2725%EF%BC%89/)
+- [WebLogic wls9-async组件RCE分析（CVE-2019-2725）](https://lucifaer.com/2019/05/10/WebLogic%20wls9-async%E7%BB%84%E4%BB%B6RCE%E5%88%86%E6%9E%90%EF%BC%88CVE-2019-2725%EF%BC%89/)
+- https://github.com/lufeirider/CVE-2019-2725/blob/master/weblogic-2019-2725_10.3.6%E5%91%BD%E4%BB%A4%E6%89%A7%E8%A1%8C.txt
 或者python版：
 ```py
 # 来源：https://github.com/iceMatcha/CNTA-2019-0014xCVE-2019-2725/blob/master/weblogic_rce.py
