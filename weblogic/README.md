@@ -76,3 +76,4 @@ Java版：
 
 参考：
 - [修复weblogic的JAVA反序列化漏洞的多种方法](http://drops.xmd5.com/static/drops/web-13470.html)
+- https://github.com/awsassets/weblogic_exploit/blob/master/target/weblogic_exploit-1.0-SNAPSHOT-all.jar
