@@ -5,3 +5,4 @@
 - https://github.com/pen4uin/vulnerability-lab
 - https://github.com/tenable/poc
 - https://github.com/projectdiscovery/nuclei-templates/tree/master/cves
+- https://github.com/ptresearch/AttackDetection
