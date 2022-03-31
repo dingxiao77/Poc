@@ -6,3 +6,4 @@
 - https://github.com/tenable/poc
 - https://github.com/projectdiscovery/nuclei-templates/tree/master/cves
 - https://github.com/ptresearch/AttackDetection
+- https://github.com/pen4uin/awesome-java-security
