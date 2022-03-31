@@ -59,5 +59,31 @@ server.host
 
 但是漏洞触发，还需要点击"Canvas"。但是某些版本，比如6.2.4并没有"Canvas"功能。
 
+
+### Rescue
+![image](https://user-images.githubusercontent.com/30398606/160997528-7ae1dc1d-8df6-4a32-a6e8-8e47d0e0d1a9.png)
+
+![image](https://user-images.githubusercontent.com/30398606/160998219-fb2d6312-ced4-4912-b3df-2ead6af97ccb.png)
+
+确实下载了test.zip，但是安装出错，导致kibana退出了。如果是实战中，就悲剧了，把有漏洞的kibana给关了，真的无法利用了。
+![image](https://user-images.githubusercontent.com/30398606/160999181-696f238a-adca-44bb-a813-2aca8dcb574b.png)
+
+原来是没有把index.js打包进去。
+
+安装失败参考这个构造zip包：
+https://github.com/outbrain/ob-kb-percent/issues/7
+
+![image](https://user-images.githubusercontent.com/30398606/161001182-62faa5e8-6d69-4464-8367-c27aecbdbe9d.png)
+
+确保把package.json和index.js都打包进去。
+![image](https://user-images.githubusercontent.com/30398606/161003176-a8df6af8-4d10-4553-ad4e-a2f32325b9e0.png)
+
+虽然报这个错，但是插件已经安装成功了。
+![image](https://user-images.githubusercontent.com/30398606/161003301-b4029b69-54d8-45cf-8918-2ea3f0ad511d.png)
+
+
 ## Ref
 - https://github.com/mpgn/CVE-2019-7609
+- https://github.com/mpgn/CVE-2018-17246
+- https://www.synacktiv.com/en/publications/pwning-an-outdated-kibana-with-not-so-sad-vulnerabilities.html
+- https://twitter.com/chybeta/status/1185860595620311042
