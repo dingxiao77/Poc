@@ -25,7 +25,12 @@ server.host
 
 - https://www.elastic.co/guide/cn/kibana/current/settings.html
 - 
+### 载入数据
 
+安装完ElasticSearch之后需要载入数据，否则出现这种情况：
+![image](https://user-images.githubusercontent.com/30398606/160978398-9e1b2ad7-b2fc-476a-ab88-2e390a6d7779.png)
+
+- https://www.elastic.co/guide/en/kibana/6.7/tutorial-load-dataset.html
 
 ### kibana CVE-2019-7609
 
