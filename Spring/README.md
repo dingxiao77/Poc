@@ -52,7 +52,13 @@ Invalid property 'class.module.classLoader.resources' of bean class [java.lang.M
 tomcat换了之后依然没有成功。
 ![image](https://user-images.githubusercontent.com/30398606/161372361-0c85d1ca-1a4a-46b1-862a-7c7c19156635.png)
 可能因为我是直接在windows上双击startup.bat导致日志直接输出到控制台，而没有机会写入到文件？
+原来是使用这个：https://github.com/craig/SpringCore0day/blob/main/exp.py
+导致有个引号的bug吧。
+![image](https://user-images.githubusercontent.com/30398606/161375232-2b243cef-2e90-415a-9320-b8f894b3ffef.png)
 
+
+使用这个成功了：
+https://github.com/lunasec-io/Spring4Shell-POC
 
 
 ### Ref
