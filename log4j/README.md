@@ -42,3 +42,4 @@ mvn dependency:tree -Dincludes=org.apache.logging.log4j:log4j-core
 - [一个针对防御 log4j2 CVE-2021-44228 漏洞的 RASP 工具](https://github.com/boundaryx/cloudrasp-log4j2)
 - [浅谈 Log4j2 漏洞](https://tttang.com/archive/1378/)
 - [代码级分析Log4j2漏洞和对Elasticsearch的影响](https://www.bilibili.com/video/BV1Ua411r7zN)
+- https://github.com/cisagov/log4j-affected-db/tree/develop/software_lists
